@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="appplus.mobi.lockdownpro.theme.classic.blue"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+
+            <!-- action filter theme -->
+
+            <intent-filter>
+                <action android:name="applus.mobi.lockdownpro.theme" />
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+
+            <!-- theme_name is name theme -->
+            <meta-data
+                android:name="extras_name_theme"
+                android:value="@string/theme_name" />
+
+            <!-- "0" is type theme pattern, "1" is type classic-->
+            <meta-data
+                android:name="extras_type_theme"
+                android:value="1" />
+            
+             <!-- "0" transparent, "1" is normal |  selected theme again when changing  -->
+            <meta-data
+                android:name="extras_is_transparent"
+                android:value="1" />
+        </activity>
+    </application>
+
+</manifest>

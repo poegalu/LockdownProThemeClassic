@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_classic_text">#ffffff</color>
+    <color name="color_classic_text_button">#6a6a6a</color>
+    <color name="color_classic_background">#e5e5e5</color>
+    <color name="color_classic_background_header">#2c59a6</color>
+    <color name="color_button_normal">#eeeeee</color>
+    <color name="color_button_normal_press">#dddddd</color>
+
+</resources>
